@@ -11,3 +11,4 @@ router.post('/keeplogin', verifyToke, userController.keeplogin)
 router.post('/upload/:iduser', uploader,userController.uploadPhoto)
 
 module.exports = router
+
